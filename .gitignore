@@ -12,6 +12,6 @@ vendor/
 # Ignore local txt files
 decklist.txt
 description_input.txt
-description_output.txt
+output_description.txt
 
 
