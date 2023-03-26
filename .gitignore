@@ -1,0 +1,17 @@
+# Go build output
+bin/
+*.exe
+*.out
+
+# Dependency directories
+vendor/
+
+# Go build cache
+.go_build/
+
+# Ignore local txt files
+decklist.txt
+description_input.txt
+description_output.txt
+
+
