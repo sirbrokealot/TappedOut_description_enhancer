@@ -1,0 +1,19 @@
+This is a sample description demonstrating how the program works. It replaces card names in the text if a match is found in the decklist.
+
+Card names can appear in different formats:
+- Standalone: With Unwind, you can counter spells and untap for Zedruu the Greathearted.
+- Card link for TappedOut: A cool commander for casual play is [[card:Zedruu the Greathearted]].
+- Card link with additional information (foil, edition, or alternate art): A cool commander for casual play is [[card:Zedruu the Greathearted *A: 32828*]].
+
+lets see if Zedruu
+the Greathearted can be replaced
+
+The program appends all information from your decklist, which must be in the TappedOut export format.
+
+Invalid inputs can also be handled:
+- Lacking 'card:' in the link: [[Vedalken Plotter]]
+- Combo links from TappedOut: [[Zedruu the Greathearted + Unwind]]
+
+Example:
+
+Weathered Wayfarer is crucial for searching any land, not just basics. Since we donate lands with Zedruu the Greathearted, we can meet Weathered Wayfarer's condition of having fewer lands than opponents. Whirlwind of Thought acts as another draw engine, similar to Zedruu the Greathearted. With Vedalken Plotter, we can mana screw an opponent and increase the count from Zedruu the Greathearted by letting them own our permanents.
